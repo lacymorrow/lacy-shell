@@ -1,0 +1,37 @@
+{
+  "name": "lacy-shell",
+  "version": "1.0.0",
+  "description": "A smart shell plugin with AI agent integration via MCP",
+  "main": "lacy-shell.plugin.zsh",
+  "scripts": {
+    "install": "./install.sh",
+    "test": "zsh -c 'source lacy-shell.plugin.zsh && lacy_shell_test_detection'",
+    "setup-mcp": "npm install -g @modelcontextprotocol/server-filesystem @modelcontextprotocol/server-web"
+  },
+  "keywords": [
+    "shell",
+    "zsh",
+    "plugin",
+    "ai",
+    "mcp",
+    "assistant",
+    "automation"
+  ],
+  "author": "Lacy Shell Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server-filesystem": "^0.1.0",
+    "@modelcontextprotocol/server-web": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/lacy-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/lacy-shell/issues"
+  },
+  "homepage": "https://github.com/username/lacy-shell#readme"
+}
